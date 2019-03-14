@@ -1,2 +1,1 @@
 User-agent: *
-Sitemap: http://*:1313/sitemap.xml

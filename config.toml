@@ -1,6 +1,6 @@
-baseURL = ""
+baseURL = "https://pixiake.github.io/MyWeb/"
 languageCode = "en"
-title = "Hugo Blog"
+title = "棉花堂"
 theme = "hugo-nuo"
 enableRobotsTXT = true
 PygmentsCodeFences = true
@@ -15,6 +15,7 @@ googleAnalytics = "UA-XXXXXXXX-X"
 # Copyright of your post
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
 
+publishDir = "docs"
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
   name = "Home"
@@ -26,7 +27,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   name = "Works"
   weight = 20
   identifier = "works"
-  url = "https://github.com/laozhu"
+  url = "https://github.com/pixiake"
 
 [[menu.main]]
   name = "Tags"
@@ -36,7 +37,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
 # Add your own params here
 [params]
-  author = "Ritchie Zhu"
+  author = "pixiake"
   bg = "images/grey-prism.svg"
   avatar = "images/avatar.png"
   seotitle = "Hugo Blog (SEO Version)"
